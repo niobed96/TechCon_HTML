@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>techcon</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+     <!-- Main Section -->
+     <main>
+        <section>
+            <h2>Get in Touch with Us</h2>
+
+            <!-- Contact Information -->
+            <h3>Email Address</h3>
+            <p>For inquiries, please reach out to us at: 
+                <a href="mailto:niobed.nexus@gmail.com">niobed.nexus@gmail.com</a>
+            </p>
+
+            <h3>Follow Us on Social Media</h3>
+            <p>Stay updated with the latest news and announcements by following us on social media:</p>
+            <ul>
+                <li><a href="https://facebook.com/techcon" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/techcon" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com/techcon" target="_blank">Instagram</a></li>
+            </ul>
+
+            <!-- Embedded Google Map -->
+            <h3>Conference Location</h3>
+            <p>Find the venue location on the map below:</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=...your-location-url..." 
+                width="600" 
+                height="450" >
+            </iframe>
+
+            <!-- Contact Us Form -->
+            <h3>Send Us a Message</h3>
+            <form action="submit_message.html" method="POST">
+                <!-- Name Field -->
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <br><br>
+
+                <!-- Email Field -->
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <br><br>
+
+                <!-- Message Field -->
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+                <br><br>
+
+                <!-- Submit Button -->
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <p>2024 TechCon. All rights reserved. &copy; copyright.</p>
+    </footer>
+</body>
+    
